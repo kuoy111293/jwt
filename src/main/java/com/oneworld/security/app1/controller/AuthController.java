@@ -14,7 +14,7 @@ import com.oneworld.security.app1.payload.response.TokenRefreshResponse;
 import com.oneworld.security.app1.repository.RoleRepository;
 import com.oneworld.security.app1.repository.UserRepository;
 import com.oneworld.security.app1.security.jwt.JwtUtils;
-import com.oneworld.security.app1.security.jwt.exception.TokenRefreshException;
+import com.oneworld.security.app1.exception.TokenRefreshException;
 import com.oneworld.security.app1.security.services.RefreshTokenService;
 import com.oneworld.security.app1.security.services.UserDetailsImpl;
 import org.springframework.beans.factory.annotation.Autowired;

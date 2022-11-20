@@ -1,6 +1,6 @@
-package com.oneworld.security.app1.security.advice;
+package com.oneworld.security.app1.advice;
 
-import com.oneworld.security.app1.security.jwt.exception.TokenRefreshException;
+import com.oneworld.security.app1.exception.TokenRefreshException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;

@@ -1,4 +1,4 @@
-package com.oneworld.security.app1.security.jwt.exception;
+package com.oneworld.security.app1.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

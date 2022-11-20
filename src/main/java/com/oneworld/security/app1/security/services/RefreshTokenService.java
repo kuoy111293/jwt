@@ -3,7 +3,7 @@ package com.oneworld.security.app1.security.services;
 import com.oneworld.security.app1.models.RefreshToken;
 import com.oneworld.security.app1.repository.RefreshTokenRepository;
 import com.oneworld.security.app1.repository.UserRepository;
-import com.oneworld.security.app1.security.jwt.exception.TokenRefreshException;
+import com.oneworld.security.app1.exception.TokenRefreshException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

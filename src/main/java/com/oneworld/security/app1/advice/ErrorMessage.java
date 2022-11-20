@@ -1,4 +1,4 @@
-package com.oneworld.security.app1.security.advice;
+package com.oneworld.security.app1.advice;
 
 import java.util.Date;
 
